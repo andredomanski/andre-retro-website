@@ -39,7 +39,7 @@
       <div class="bali-vibes">&#127463;&#127479;&#128231;&#128293;&#9889;&#127463;&#127479;&#128231;&#128293;&#9889;</div>
 
       <div class="tanay-avatar" id="avatar">
-        &#128231;
+        <img src="../assets/andre.jpg" alt="Andre Domanski" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
       </div>
       <br>
 
@@ -369,6 +369,29 @@
         </div>
         <div style="padding: 5px 8px; font-family: 'Comic Sans MS', cursive; font-size: 10px; color: #888; text-align: center;">
           Click cookie. Get cookies. Buy upgrades. This is peak productivity.
+        </div>
+      </div>
+
+      <!-- TETRIS -->
+      <div class="retro-box" style="max-width: 500px; margin: 15px auto;">
+        <div class="retro-box-title">
+          <span>&#127912; TETRIS: Inbox Stacker</span>
+          <div class="window-buttons"><span>_</span><span>&#9633;</span><span>X</span></div>
+        </div>
+        <div class="game-header">
+          <span id="tetris-game-score" class="game-score">Press START to play</span>
+          <span id="tetris-game-level" class="game-score"></span>
+          <button id="tetris-game-start" style="
+            background: #bf00ff; color: #fff; border: 2px outset #d966ff;
+            font-family: 'Press Start 2P', monospace; font-size: 9px;
+            padding: 4px 12px; cursor: pointer;
+          ">&#127912; START</button>
+        </div>
+        <div class="game-container">
+          <canvas id="tetris-canvas" width="480" height="400" style="background: #000; display: block; width: 100%; image-rendering: pixelated;"></canvas>
+        </div>
+        <div style="padding: 5px 8px; font-family: 'Comic Sans MS', cursive; font-size: 10px; color: #888; text-align: center;">
+          Arrow keys to move/rotate. Down to soft drop. Space to hard drop. Stack emails, clear lines!
         </div>
       </div>
 
